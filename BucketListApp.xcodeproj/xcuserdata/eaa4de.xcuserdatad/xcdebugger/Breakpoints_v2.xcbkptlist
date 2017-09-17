@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BucketListApp/BucketListViewController.swift"
+            timestampString = "527357989.681058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BucketListApp/BucketListViewController.swift"
+            timestampString = "527357989.681058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "BucketListViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BucketListApp/BucketListViewController.swift"
+            timestampString = "527357989.681058"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BucketListApp/BucketListViewController.swift"
+            timestampString = "527356970.359751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "BucketListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BucketListApp.BucketListViewController.myBucketItems.getter : Swift.Array&lt;BucketListApp.BucketItem&gt;"
+                  moduleName = "BucketListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eaa4de/Desktop/BucketListApp/BucketListApp/BucketListViewController.swift"
+                  timestampString = "527356970.364238"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BucketListApp.BucketListViewController.myBucketItems.setter : Swift.Array&lt;BucketListApp.BucketItem&gt;"
+                  moduleName = "BucketListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eaa4de/Desktop/BucketListApp/BucketListApp/BucketListViewController.swift"
+                  timestampString = "527356970.36649"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BucketListApp.BucketListViewController.init (style : __C.UITableViewStyle) -&gt; BucketListApp.BucketListViewController"
+                  moduleName = "BucketListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eaa4de/Desktop/BucketListApp/BucketListApp/BucketListViewController.swift"
+                  timestampString = "527356970.368091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BucketListApp.BucketListViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BucketListApp.BucketListViewController"
+                  moduleName = "BucketListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eaa4de/Desktop/BucketListApp/BucketListApp/BucketListViewController.swift"
+                  timestampString = "527356970.369343"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BucketListApp.BucketListViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BucketListApp.BucketListViewController&gt;"
+                  moduleName = "BucketListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eaa4de/Desktop/BucketListApp/BucketListApp/BucketListViewController.swift"
+                  timestampString = "527356970.370595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
