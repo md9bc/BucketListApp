@@ -14,6 +14,8 @@ class BucketListViewCell: UITableViewCell {
     //add other parameters?
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var itemNameLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
