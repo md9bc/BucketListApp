@@ -13,26 +13,44 @@ class BucketListViewController: UITableViewController {
     //@IBOutlet weak var myTableView: UITableView!
     
     
-    var myBucketItems = [BucketItem]()
+    //var myBucketItems = [BucketItem]()
     
-    func loadSampleItems() {
+    private var myBucketItems = BucketItem.getMockData();
+    
+    /*func loadSampleItems() {
         let item1 = BucketItem(name: "My Awesomeness", date: Date(), itemText: "Here is some stuff!", complete: false)
         myBucketItems += [item1]
         let item2 = BucketItem(name: "More Items!", date: Date(), itemText: "Here is some stuff!", complete: false)
         myBucketItems += [item2]
     }
+ */
+    
     
     //how many lists there should be
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    /*
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myBucketItems.count
     }
- */
+ 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell_todo", for : indexPath)
+        
+        if indexPath.row < myBucketItems.count {
+            let item = myBucketItems[indexPath.row]
+            cell.textLabel?.text = item.name
+            
+            let accessory: UITableViewCellAccessoryType = item.complete ? .checkmark : .none
+            cell.accessoryType = accessory
+        }
+        
+        return cell
+    }
     
+    /*
     // Override to show what each cell should have in it based on the note in the list
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -53,6 +71,8 @@ class BucketListViewController: UITableViewController {
         
         return cell
     }
+    */
+    
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let index = indexPath[1]
@@ -109,8 +129,10 @@ class BucketListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell_todo")
+        self.title = "Bucket List Items"
         //self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "customcell")
-        loadSampleItems()
+        //loadSampleItems()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

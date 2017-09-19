@@ -30,9 +30,11 @@ extension BucketItem
     {
         return [
             //need to fix date... how to use it for mock?
-            BucketItem(name: "Milk", date: Date() , itemText: "Buy milk", complete: false),
-            BucketItem(name: "Chocolate", date: Date(), itemText: "Buy chocolate", complete: false),
-            BucketItem(name: "Light bulb", date: Date(), itemText: "Buy light", complete: false)
+            BucketItem(name: "Go to LOTL", date: Date() , itemText: "GET LIT", complete: false),
+            BucketItem(name: "Have fun", date: Date(), itemText: "I guess I did this first year", complete: true),
+            BucketItem(name: "Get a job", date: Date(), itemText: "hopefully a good one", complete: false),
+            BucketItem(name: "Get some sleep", date: Date(), itemText: "like 8 hours or something", complete: false),
+            BucketItem(name: "go to Roto sing", date: Date(), itemText: "listen to singing", complete: false)
         ]
     }
 }
